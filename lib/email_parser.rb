@@ -1,7 +1,6 @@
 class EmailAddressParser
-  attr_accessor :parser
+  attr_accessor :name :parser
   
-  email_addresses = []
   
   def self.parse
     email_addresses
